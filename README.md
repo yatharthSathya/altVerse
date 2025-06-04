@@ -1,4 +1,5 @@
 __APUSH Alternate History Explorer__
+
 A simple and fun web app that lets APUSH students explore “What If?” scenarios from U.S. history — powered by AI storytelling. Pick a historical event, type your alternate twist, and get an engaging, easy-to-understand summary in return.
 
 **Features**
