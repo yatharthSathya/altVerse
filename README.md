@@ -41,4 +41,4 @@ A simple and fun web app that lets APUSH students explore “What If?” scenari
 - OpenAI API (GPT-4o-mini model) for generating text
 
 **License**
-MIT License — feel free to use and adapt, just please give credit where it’s due!
+MIT License — feel free to fork the repo and adapt, just please give credit where it’s due!
