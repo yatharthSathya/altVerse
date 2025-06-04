@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AltVerse - APUSH Edition</title>
+  
+  <!-- Google Fonts Import -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display&family=Courier+Prime&family=Lora&family=Merriweather&family=Montserrat&family=PT+Serif&family=Open+Sans&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📚 AltVerse - APUSH Edition</h1>
+    <p>Explore alternate history from key APUSH events!</p>
+    <button id="toggle-responsive" style="margin-top: 0.5rem;">Enable Mobile-Friendly Mode</button>
+  </header>
+
+  <main>
+    <section id="input-area">
+      <label for="topic">Choose an APUSH Event:</label>
+      <select id="topic">
+        <option value="columbian-exchange">Columbian Exchange (Period 1)</option>
+        <option value="salem-witch-trials">Salem Witch Trials (Period 2)</option>
+        <option value="declaration-independence">Declaration of Independence (Period 3)</option>
+        <option value="missouri-compromise">Missouri Compromise (Period 4)</option>
+        <option value="emancipation-proclamation">Emancipation Proclamation (Period 5)</option>
+        <option value="wctu">Women’s Christian Temperance Union (Period 6)</option>
+        <option value="cuban-missile-crisis">Cuban Missile Crisis (Period 8)</option>
+      </select>
+
+      <label for="whatif">What if...</label>
+      <input type="text" id="whatif" placeholder="e.g., the Cuban Missile Crisis escalated into nuclear war" />
+
+      <button id="generate">Generate Scenario</button>
+      <button id="speak-btn" style="display:none; margin-top:1rem;">🔊 Speak</button>
+    </section>
+
+    <section id="output-area">
+      <h2>Alternate History Summary:</h2>
+      <div id="result">Your altverse will appear here.</div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
