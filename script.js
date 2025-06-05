@@ -33,10 +33,7 @@ const topicNames = {
       return;
     }
   
-    resultArea.textContent = "Generating alternate universe...";
-    speakBtn.style.display = "none"; // Hide speak button while loading
-    resultArea.className = ""; // Clear previous classes
-  
+    resultArea.innerHTML = '<div class="loader"></div>';
     try {
       const scenario = await getAlternateHistory(topic, whatIf);
   
